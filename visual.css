@@ -1,0 +1,68 @@
+
+#game {
+  border-style: solid;
+  color: purple;
+  text-align: center;
+  font-size: 96px;
+}
+
+#game1 {
+color: purple;
+text-align: center;
+font-size: 50px;
+}
+
+#textg {
+  color: purple;
+  text-align: left;
+  font-size: 20px;
+}
+.actions {
+ text-align: center;
+}
+
+.board {
+ margin: 50px auto;
+ width: 300px;
+}
+
+.square {
+ background-color: yellow;
+ width:  96px;
+ height: 96px;
+ border: 2px solid beige;
+ float: left;
+}
+
+.square:hover {
+  border-color: aqua;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+
+.O {
+  background-image: url('oik.png');
+  background-size: cover;
+}
+
+.X {
+  background-image: url('player.png');
+  background-size: cover;
+}
